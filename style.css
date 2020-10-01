@@ -4,14 +4,24 @@ h1
 }
 table, tr, td
 {
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 #aboutMe
 {
-    color: black;
     border-collapse: collapse;
-    background-color: deepskyblue;
+    background-color: black;
+
+}
+
+#topic
+{
+    color:red
+}
+
+#info
+{
+    color: yellow;
 }
 
 h3
