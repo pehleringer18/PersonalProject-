@@ -1,5 +1,19 @@
 table, tr, td
 {
     border: 1px solid black;
+}
+
+#aboutMe
+{
     border-collapse: collapse;
+}
+
+#topic
+{
+    background-color: turquoise;
+}
+
+#info
+{
+    background-color: magenta;
 }
