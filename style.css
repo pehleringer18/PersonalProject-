@@ -1,3 +1,7 @@
+h1
+{
+    color: limegreen;
+}
 table, tr, td
 {
     border: 1px solid black;
@@ -5,15 +9,18 @@ table, tr, td
 
 #aboutMe
 {
+    color: black;
     border-collapse: collapse;
+    background-image: url(IMG_3897.jpeg);
+    background-color: deepskyblue;
 }
 
-#topic
+ol
 {
-    background-color: turquoise;
+    color: lightcoral;
 }
 
-#info
+li
 {
-    background-color: magenta;
+    color: deeppink;
 }
