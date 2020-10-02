@@ -14,12 +14,12 @@ table, tr, td
 
 }
 
-#topic
+.class
 {
     color:red
 }
 
-#info
+.info
 {
     color: yellow;
 }
