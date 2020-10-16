@@ -56,7 +56,7 @@ abbr {
 
 /* specific divs */
 .page-wrapper { 
-	
+	background: url(helmet.jpeg) no-repeat top left; 
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
