@@ -27,7 +27,7 @@ body {
 p { 
 	margin-top: 0; 
 	text-align: justify;
-	background-color: black; opacity: .5;
+	background-color: black; opacity: 1;
 	}
 h3 { 
 	font: italic normal 1.4em georgia, sans-serif;
@@ -60,6 +60,7 @@ abbr {
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
+	background-size: 200px 200px;
 	}
 
 .intro { 
