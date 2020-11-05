@@ -1,19 +1,20 @@
 #gods
 {
     position: absolute;
+    left: 100px;
     top: 100px;
 }
 
 #creatures
 {
     position: absolute;
-    left: 500px;
+    left: 600px;
     top: 100px;
 }
 
 #stories
 {
     position: absolute;
-    left: 1000px;
+    left: 1100px;
     top: 100px;
 }
