@@ -5,15 +5,15 @@ h1
 #gods
 {
     position: absolute;
-    left: 500px;
+    left: 100px;
     top: 100px;
 }
 
 #creatures
 {
     position: absolute;
-    left: 400px;
-    right: 400px;
+    left: 250px;
+    right: 250px;
     top: 100px;
 }
 
