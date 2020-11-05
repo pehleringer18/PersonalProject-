@@ -1,0 +1,19 @@
+#gods
+{
+    position: absolute;
+    top: 100px;
+}
+
+#creatures
+{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
+
+#stories
+{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
