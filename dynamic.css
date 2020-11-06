@@ -33,6 +33,7 @@ button
 
 #home
 {
+    position: absolute;
     left: 500px;
     bottom: 50px;
     background-image: url("big12.jpg");
@@ -45,6 +46,7 @@ button
 
 #aboveHome
 {
+    position: absolute;
     left: 500px;
     bottom: 100px;
 }
