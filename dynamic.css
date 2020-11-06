@@ -33,18 +33,16 @@ button
 
 #abovegods
 {
-    text-align: center;
     position: absolute;
     left: 300px;
-    top: 275px;
+    top: 250px;
 }
 
 #abovecreatures
 {
-    text-align: center;
     position: absolute;
     right: 300px;
-    top: 275px;
+    top: 250px;
 }
 
 #abovegods span
