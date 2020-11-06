@@ -27,7 +27,8 @@ button
 #creatures
 {
     position: absolute;
-    text-align: center;
+    left: 500px;
+    top: 100px;
     background-image: url("creatures.jpg");
     background-position: center;
     background-size: 200px 200px;
