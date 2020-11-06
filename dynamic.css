@@ -44,6 +44,11 @@ button
     color:black
 }
 
+#big12image
+{
+    align-items: center;
+}
+
 #aboveHome
 {
     position: absolute;

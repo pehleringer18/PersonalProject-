@@ -13,6 +13,11 @@ function replaceMain()
     location.replace("dynamic.html");
 }
 
+function showBig12()
+{
+    document.replace("big12image");
+}
+
 function showImageZeus()
 {
     document.zeus.src="zeuz.jpg";
