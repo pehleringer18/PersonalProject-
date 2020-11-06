@@ -34,7 +34,7 @@ button
 #home
 {
     position: absolute;
-    left: 575px;
+    align-items: center;
     background-image: url("house.jpg");
     background-position: center;
     background-size: 200px 200px;
@@ -51,8 +51,8 @@ button
 #aboveHome
 {
     position: absolute;
-    right: 100px;
-    bottom: 125px;
+    text-align: center;
+    bottom: 300px;
 }
 
 #aboveHome span
