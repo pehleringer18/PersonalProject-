@@ -124,3 +124,19 @@ button
     margin-left: auto;
     margin-right: auto;
 }
+
+#big12desc
+{
+    text-align: center;
+    background-color: black;
+    opacity: 75%;
+    color: white;
+}
+
+#creaturesDecs
+{
+    text-align: center;
+    background-color: black;
+    opacity: 75%;
+    color: white;
+}
