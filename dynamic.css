@@ -11,6 +11,10 @@ body
 h1
 {
     text-align: center;
+}
+
+h1 span
+{
     background-color: black;
     opacity: 75%;
     color: white;
@@ -37,6 +41,7 @@ button
     background-size: 200px 200px;
     background-color: black;
     background-repeat: no-repeat;
+    color:black
 
 }
 
@@ -50,6 +55,7 @@ button
     background-size: 200px 200px;
     background-color: black;
     background-repeat: no-repeat;
+    color: black;
 }
 
 #big12
