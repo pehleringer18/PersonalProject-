@@ -8,6 +8,11 @@ function replaceCreatures()
     location.replace("dynamicCreatures.html");
 }
 
+function backToHome()
+{
+    location.replace("dymanic.html");
+}
+
 function showImageZeus()
 {
     document.zeus.src="zeuz.jpg";
