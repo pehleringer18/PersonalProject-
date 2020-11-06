@@ -50,12 +50,14 @@ button
 #big12image
 {
     align-items: center;
+    height: 300px;
+    width: 300px;
 }
 
 #aboveHome
 {
     text-align: center;
-    bottom: 250px;
+    bottom: 150px;
 }
 
 #aboveHome span
