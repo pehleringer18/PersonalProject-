@@ -60,7 +60,7 @@ button
 #aboveHome span
 {
     background-color: black;
-    opacity: 75%;
+    opacity: 50%;
     color: white;
 }
 
@@ -81,14 +81,14 @@ button
 #abovegods span
 {
     background-color: black;
-    opacity: 75%;
+    opacity: 50%;
     color: white;
 }
 
 #abovecreatures span
 {
     background-color: black;
-    opacity: 75%;
+    opacity: 50%;
     color: white;
 }
 
@@ -125,7 +125,7 @@ button
     margin-left: auto;
     margin-right: auto;
     background-color: black;
-    opacity: 75%;
+    opacity: 50%;
     color: white;
 }
 
@@ -135,7 +135,7 @@ button
     margin-left: auto;
     margin-right: auto;
     background-color: black;
-    opacity: 75%;
+    opacity: 50%;
     color: white;
 }
 
@@ -147,7 +147,7 @@ button
 #big12desc span
 {
     background-color: black;
-    opacity: 75%;
+    opacity: 50%;
     color: white;
 }
 
@@ -159,6 +159,6 @@ button
 #creaturesDecs span
 {
     background-color: black;
-    opacity: 75%;
+    opacity: 50%;
     color: white;
 }
