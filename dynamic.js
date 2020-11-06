@@ -8,7 +8,7 @@ function replaceCreatures()
     location.replace("dynamicCreatures.html");
 }
 
-function backToHome()
+function replaceMain()
 {
     location.replace("dymanic.html");
 }

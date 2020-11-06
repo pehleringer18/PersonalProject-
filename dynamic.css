@@ -31,6 +31,31 @@ button
     width: 200px;
 }
 
+#home
+{
+    left: 500px;
+    bottom: 50px;
+    background-image: url("big12.jpg");
+    background-position: center;
+    background-size: 200px 200px;
+    background-color: black;
+    background-repeat: no-repeat;
+    color:black
+}
+
+#aboveHome
+{
+    left: 500px;
+    bottom: 100px;
+}
+
+#aboveHome span
+{
+    background-color: black;
+    opacity: 75%;
+    color: white;
+}
+
 #abovegods
 {
     position: absolute;
