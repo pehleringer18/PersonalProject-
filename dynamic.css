@@ -33,11 +33,11 @@ button
 
 #home
 {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     position: absolute;
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: 45%;
+    margin-right: 45%;
     bottom: 50px;
     background-image: url("house.jpg");
     background-position: center;
