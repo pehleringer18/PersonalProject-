@@ -20,7 +20,7 @@ function showBig12()
 
 function showImageZeus()
 {
-    document.big12image.src="zeuz.jpg";
+    document.big12image.src="zeus.jpg";
 }
 
 function showImageHera()
