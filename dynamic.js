@@ -10,7 +10,7 @@ function replaceCreatures()
 
 function replaceMain()
 {
-    location.replace("dymanic.html");
+    location.replace("dynamic.html");
 }
 
 function showImageZeus()
