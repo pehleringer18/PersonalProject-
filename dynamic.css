@@ -36,8 +36,8 @@ button
     height: 100px;
     width: 100px;
     position: absolute;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 50%;
+    margin-right: 50%;
     bottom: 50px;
     background-image: url("house.jpg");
     background-position: center;
