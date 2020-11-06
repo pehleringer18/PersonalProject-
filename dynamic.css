@@ -118,6 +118,13 @@ button
     margin-right: auto;
 }
 
+#big12 span
+{
+    background-color: black;
+    opacity: 75%;
+    color: white;
+}
+
 #creaturesTable
 {
     text-align: center;
@@ -125,9 +132,20 @@ button
     margin-right: auto;
 }
 
+#creaturesTable span
+{
+    background-color: black;
+    opacity: 75%;
+    color: white;
+}
+
 #big12desc
 {
     text-align: center;
+}
+
+#big12desc span
+{
     background-color: black;
     opacity: 75%;
     color: white;
@@ -136,6 +154,10 @@ button
 #creaturesDecs
 {
     text-align: center;
+}
+
+#creatureDecs span
+{
     background-color: black;
     opacity: 75%;
     color: white;
