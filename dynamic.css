@@ -36,7 +36,7 @@ button
     position: absolute;
     margin-left: 40%;
     margin-right: 40%;
-    margin-top: 80%;
+    bottom: 200px;
     background-image: url("house.jpg");
     background-position: center;
     background-size: 200px 200px;
@@ -60,7 +60,7 @@ button
 #aboveHome span
 {
     background-color: black;
-    opacity: 50%;
+    opacity: 75%;
     color: white;
 }
 
@@ -81,14 +81,14 @@ button
 #abovegods span
 {
     background-color: black;
-    opacity: 50%;
+    opacity: 75%;
     color: white;
 }
 
 #abovecreatures span
 {
     background-color: black;
-    opacity: 50%;
+    opacity: 75%;
     color: white;
 }
 
@@ -125,7 +125,7 @@ button
     margin-left: auto;
     margin-right: auto;
     background-color: black;
-    opacity: 50%;
+    opacity: 75%;
     color: white;
 }
 
@@ -135,7 +135,7 @@ button
     margin-left: auto;
     margin-right: auto;
     background-color: black;
-    opacity: 50%;
+    opacity: 75%;
     color: white;
 }
 
@@ -147,7 +147,7 @@ button
 #big12desc span
 {
     background-color: black;
-    opacity: 50%;
+    opacity: 75%;
     color: white;
 }
 
@@ -159,6 +159,6 @@ button
 #creaturesDecs span
 {
     background-color: black;
-    opacity: 50%;
+    opacity: 75%;
     color: white;
 }
