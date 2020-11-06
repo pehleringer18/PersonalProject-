@@ -34,7 +34,7 @@ button
 #home
 {
     position: absolute;
-    left: 500px;
+    left: 550px;
     bottom: 50px;
     background-image: url("big12.jpg");
     background-position: center;
@@ -48,7 +48,7 @@ button
 {
     position: absolute;
     left: 500px;
-    bottom: 100px;
+    bottom: 300px;
 }
 
 #aboveHome span
