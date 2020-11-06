@@ -33,6 +33,8 @@ button
 
 #home
 {
+    height: 100px;
+    width: 100px;
     position: absolute;
     margin-left: 40%;
     margin-right: 40%;
