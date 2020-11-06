@@ -15,115 +15,115 @@ function replaceMain()
 
 function showBig12()
 {
-    document.replace("big12image");
+    document.big12image.src("big12image");
 }
 
 function showImageZeus()
 {
-    document.zeus.src="zeuz.jpg";
+    document.big12image.src="zeuz.jpg";
 }
 
 function showImageHera()
 {
-    document.hera.src="hera.jpg";
+    document.big12image.src="hera.jpg";
 }
 
 function showImagePoseidon()
 {
-    document.poseidon.src="poseidon.jpg";
+    document.big12image.src="poseidon.jpg";
 }
 
 function showImageDemeter()
 {
-    document.demeter.src="demeter.jpg";
+    document.big12image.src="demeter.jpg";
 }
 
 function showImageAthena()
 {
-    document.athena.src="athena.jpg";
+    document.big12image.src="athena.jpg";
 }
 
 function showImageApollo()
 {
-    document.apollo.src="apollo.png";
+    document.big12image.src="apollo.png";
 }
 
 function showImageArtemis()
 {
-    document.artemis.src="artemis.jpg";
+    document.big12image.src="artemis.jpg";
 }
 
 function showImageAres()
 {
-    document.ares.src="ares.jpg";
+    document.big12image.src="ares.jpg";
 }
 
 function showImageHepheastus()
 {
-    document.hepheastus.src="hephaestus.jpg";
+    document.big12image.src="hephaestus.jpg";
 }
 
 function showImageAphrodite()
 {
-    document.aphrodite.src="aphrodite.jpg";
+    document.big12image.src="aphrodite.jpg";
 }
 
 function showImageHermes()
 {
-    document.hermes.src="hermes.jpg";
+    document.big12image.src="hermes.jpg";
 }
 
 function showImageDionysus()
 {
-    document.dionysus.src="dionysus.jpg";
+    document.big12image.src="dionysus.jpg";
 }
 
 function showImageCeberus()
 {
-    document.ceberus.src="ceberus.jpg";
+    document.big12image.src="ceberus.jpg";
 }
 
 function showImageSiren()
 {
-    document.siren.src="siren.jpg";
+    document.big12image.src="siren.jpg";
 }
 
 function showImageMedusa()
 {
-    document.medusa.src="medusa.jpeg";
+    document.big12image.src="medusa.jpeg";
 }
 
 function showImageMinotaur()
 {
-    document.minotaur.src="minotaur.jpg";
+    document.big12image.src="minotaur.jpg";
 }
 
 function showImageHarpy()
 {
-    document.harpy.src="harpy.jpg";
+    document.big12image.src="harpy.jpg";
 }
 
 function showImageSatyr()
 {
-    document.satyr.src="satyr.jpeg";
+    document.big12image.src="satyr.jpeg";
 }
 
 function showImageChimera()
 {
-    document.chimera.src="chimera.jpg";
+    document.big12image.src="chimera.jpg";
 }
 
 function showImagePegasus()
 {
-    document.pegasus.src="pegasus.jpg";
+    document.big12image.src="pegasus.jpg";
 }
 
 function showImageCyclopes()
 {
-    document.cyclopes.src="cyclopes.jpg";
+    document.big12image.src="cyclopes.jpg";
 }
 
 function showImageCentaur()
 {
-    document.centaur.src="centaur.png";
+    document.big12image.src="centaur.png";
 }
