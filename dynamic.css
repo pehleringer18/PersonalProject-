@@ -116,10 +116,6 @@ button
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-}
-
-#big12 span
-{
     background-color: black;
     opacity: 75%;
     color: white;
@@ -130,10 +126,6 @@ button
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-}
-
-#creaturesTable span
-{
     background-color: black;
     opacity: 75%;
     color: white;
