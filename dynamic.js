@@ -15,55 +15,105 @@ function showImageZeus()
 
 function showImageHera()
 {
-    document.zeus.src="hera.jpg";
+    document.hera.src="hera.jpg";
 }
 
 function showImagePoseidon()
 {
-    document.zeus.src="poseidon.jpg";
+    document.poseidon.src="poseidon.jpg";
 }
 
 function showImageDemeter()
 {
-    document.zeus.src="demeter.jpg";
+    document.demeter.src="demeter.jpg";
 }
 
 function showImageAthena()
 {
-    document.zeus.src="athena.jpg";
+    document.athena.src="athena.jpg";
 }
 
 function showImageApollo()
 {
-    document.zeus.src="apollo.png";
+    document.apollo.src="apollo.png";
 }
 
 function showImageArtemis()
 {
-    document.zeus.src="artemis.jpg";
+    document.artemis.src="artemis.jpg";
 }
 
 function showImageAres()
 {
-    document.zeus.src="ares.jpg";
+    document.ares.src="ares.jpg";
 }
 
 function showImageHepheastus()
 {
-    document.zeus.src="hephaestus.jpg";
+    document.hepheastus.src="hephaestus.jpg";
 }
 
 function showImageAphrodite()
 {
-    document.zeus.src="aphrodite.jpg";
+    document.aphrodite.src="aphrodite.jpg";
 }
 
 function showImageHermes()
 {
-    document.zeus.src="hermes.jpg";
+    document.hermes.src="hermes.jpg";
 }
 
 function showImageDionysus()
 {
-    document.zeus.src="dionysus.jpg";
+    document.dionysus.src="dionysus.jpg";
+}
+
+function showImageCeberus()
+{
+    document.ceberus.src="ceberus.jpg";
+}
+
+function showImageSiren()
+{
+    document.siren.src="siren.jpg";
+}
+
+function showImageMedusa()
+{
+    document.medusa.src="medusa.jpeg";
+}
+
+function showImageMinotaur()
+{
+    document.minotaur.src="minotaur.jpg";
+}
+
+function showImageHarpy()
+{
+    document.harpy.src="harpy.jpg";
+}
+
+function showImageSatyr()
+{
+    document.satyr.src="satyr.jpeg";
+}
+
+function showImageChimera()
+{
+    document.chimera.src="chimera.jpg";
+}
+
+function showImagePegasus()
+{
+    document.pegasus.src="pegasus.jpg";
+}
+
+function showImageCyclopes()
+{
+    document.cyclopes.src="cyclopes.jpg";
+}
+
+function showImageCentaur()
+{
+    document.centaur.src="centaur.png";
 }
