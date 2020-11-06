@@ -55,10 +55,10 @@ function showImageArtemis()
 
 function showImageAres()
 {
-    document.big12image.src="ares.jpg";
+    document.big12image.src="ares.jpeg";
 }
 
-function showImageHepheastus()
+function showImageHephaestus()
 {
     document.big12image.src="hephaestus.jpg";
 }
@@ -80,7 +80,7 @@ function showImageDionysus()
 
 function showImageCeberus()
 {
-    document.big12image.src="ceberus.jpg";
+    document.big12image.src="cerberus.jpg";
 }
 
 function showImageSiren()
@@ -110,7 +110,7 @@ function showImageSatyr()
 
 function showImageChimera()
 {
-    document.big12image.src="chimera.jpg";
+    document.big12image.src="chimera.jpeg";
 }
 
 function showImagePegasus()
