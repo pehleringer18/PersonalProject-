@@ -18,7 +18,10 @@ button
     background-position: center;
     background-size: 200px 200px;
     background-color: black;
+    opacity: 75%;
     background-repeat: no-repeat;
+    color: white;
+
 }
 
 #creatures
