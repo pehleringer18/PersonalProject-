@@ -34,7 +34,9 @@ button
 #home
 {
     position: absolute;
-    align-items: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 80%;
     background-image: url("house.jpg");
     background-position: center;
     background-size: 200px 200px;
