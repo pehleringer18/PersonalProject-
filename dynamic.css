@@ -51,7 +51,7 @@ button
 #aboveHome
 {
     position: absolute;
-    left: 700px;
+    right: 100px;
     bottom: 125px;
 }
 
