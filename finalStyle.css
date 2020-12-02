@@ -22,7 +22,11 @@ h5
 #joke
 {
     color: lightblue;
+    font-size: medium;
+}
+
+button
+{
     margin: 0 auto;
     display: block;
-    font-size: medium;
 }
