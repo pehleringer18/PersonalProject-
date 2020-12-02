@@ -7,8 +7,3 @@ function getJoke()
     $("#punchline").html(data.punchline);
   });
 }
-
-function getImage()
-{
-    document.laughing.src="laughingFace.jpg";
-}
