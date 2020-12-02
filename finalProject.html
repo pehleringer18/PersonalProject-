@@ -9,16 +9,7 @@
     <meta charset="utf-8">
     <title>Final Prokect</title>
     <link rel="stylesheet" href="finalStyle.css"/>
-    <script>
-      function getJoke()
-        {
-          // get request to API
-          $.get("https://official-joke-api.appspot.com/jokes/random", function(data)
-          {
-            $(".joke").html(data.setup + "<br>" + "..." + "<br>" + data.punchline);
-          });
-        }
-    </script>
+    <script src="finalJS.js"></script>
   </head>
   <body>
 
