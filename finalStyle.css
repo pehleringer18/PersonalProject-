@@ -19,10 +19,17 @@ h5
     text-align: center;
 }
 
-#joke
+#setup
 {
     color: lightblue;
     font-size: medium;
+    text-align: center;
+}
+
+#punchline
+{
+    color: hotpink;
+    font-size: large;
     text-align: center;
 }
 
