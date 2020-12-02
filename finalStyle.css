@@ -6,7 +6,7 @@ body
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin: 0; 
-	padding: 0;
+    padding: 0;
 }
 
 h1
@@ -15,11 +15,6 @@ h1
 }
 
 h5
-{
-    text-align: center;
-}
-
-button
 {
     text-align: center;
 }
