@@ -10,5 +10,5 @@ function getJoke()
 
 function getImage()
 {
-    document.laughing.src="laughingFace.webp";
+    document.laughing.src="laughingFace.jpg";
 }
