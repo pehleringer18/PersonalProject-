@@ -1,4 +1,13 @@
-
+body
+{
+    background-image: url("http://www.script-tutorials.com/demos/360/images/clouds3.png");
+    background-color: darkgray;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0; 
+	padding: 0;
+}
 
 h1
 {
