@@ -37,20 +37,7 @@ h3
     text-align: center;
 }
 
-#hobbies
-{
-    color: deeppink;
-    text-align: center;
-    list-style-type: none;
-}
-#historyMom
-{
-    color: deeppink;
-    text-align: center;
-    list-style-type: none;
-}
-
-#historyDad
+ul
 {
     color: deeppink;
     text-align: center;
