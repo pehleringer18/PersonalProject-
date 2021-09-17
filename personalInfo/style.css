@@ -1,6 +1,7 @@
 h1
 {
     color: limegreen;
+    text-align: center;
 }
 table, tr, td
 {
@@ -10,7 +11,7 @@ table, tr, td
 #aboutMe
 {
     background-color: black;
-
+    text-align: center;
 }
 
 .topic
@@ -26,9 +27,11 @@ table, tr, td
 h3
 {
     color: lightcoral;
+    text-align: center;
 }
 
 li
 {
     color: deeppink;
+    text-align: center;
 }
