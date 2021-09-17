@@ -18,10 +18,7 @@ table, tr, td
 
 #family 
 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: center;
 }
 
 .topic
@@ -40,8 +37,15 @@ h3
     text-align: center;
 }
 
-li
+#hobbies
 {
     color: deeppink;
     text-align: center;
+    list-style-type: none;
+}
+#history
+{
+    color: deeppink;
+    text-align: center;
+    list-style-type: none;
 }
