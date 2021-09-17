@@ -37,13 +37,7 @@ h3
     text-align: center;
 }
 
-#hobbies
-{
-    color: deeppink;
-    text-align: center;
-    list-style-type: none;
-}
-#history
+li
 {
     color: deeppink;
     text-align: center;
