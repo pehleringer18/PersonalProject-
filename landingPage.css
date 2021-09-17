@@ -1,4 +1,10 @@
-p, h1, h2 {
+h1, h2 {
     margin: auto;
     text-align: center
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    vertical-align: center;
 }
