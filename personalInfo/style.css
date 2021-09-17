@@ -43,7 +43,14 @@ h3
     text-align: center;
     list-style-type: none;
 }
-#historyMom, #historyDad
+#historyMom
+{
+    color: deeppink;
+    text-align: center;
+    list-style-type: none;
+}
+
+#historyDad
 {
     color: deeppink;
     text-align: center;
