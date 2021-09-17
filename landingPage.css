@@ -6,5 +6,5 @@ h1, h2 {
 p {
     margin: auto;
     text-align: center;
-    vertical-align: sub; /* this doesn't work */
+    vertical-align: baseline; /* this doesn't work */
 }
