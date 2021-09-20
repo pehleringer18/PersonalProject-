@@ -11,5 +11,7 @@ p {
 
 body {
     background-image: url("media-handler.php.jpeg");
+    background-size: cover;   
     background-repeat: no-repeat;
+    background-position: center center; 
 }
