@@ -10,8 +10,6 @@ p {
 }
 
 body {
-    background-image: url("media-handler.php.jpeg");
-    background-size: cover;   
+    background-image: url("media-handler.php.jpeg"); 
     background-repeat: no-repeat;
-    background-position: center center; 
 }
