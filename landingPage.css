@@ -1,6 +1,4 @@
 h1, h2 {
-    margin: auto;
-    text-align: center;
     background-color: gray;
     display: inline;
 }
@@ -19,9 +17,6 @@ body {
     background-attachment: fixed;
 }
 
-/* .header {
-    padding: 20px;
+.header {
     text-align: center;
-    background:gray;
 }
-*/
