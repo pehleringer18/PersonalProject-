@@ -49,3 +49,9 @@ ul
     text-align: center;
     list-style-type: none;
 }
+
+p
+{
+    margin: auto;
+    text-align: center;
+}
