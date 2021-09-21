@@ -1,57 +1,47 @@
-body
-{
+body {
     background-color: black;
 }
 
-h1
-{
+h1 {
     color: limegreen;
     text-align: center;
 }
 
-table, tr, td
-{
+table, tr, td {
     border: 1px solid white;
 }
 
-#aboutMe
-{
+#aboutMe {
     background-color: black;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-#family 
-{
+#family  {
     text-align: center;
 }
 
-.topic
-{
+.topic {
     color:red
 }
 
-.info
-{
+.info {
     color: yellow;
 }
 
-h3
-{
+h3 {
     color: lightcoral;
     text-align: center;
 }
 
-ul
-{
+ul {
     color: deeppink;
     text-align: center;
     list-style-type: none;
 }
 
-p
-{
+p {
     margin: auto;
     text-align: center;
 }
