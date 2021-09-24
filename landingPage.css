@@ -8,6 +8,9 @@ p {
     background-color: rgba(0, 0, 0, .35);
     display: inline;
     font-size: 200;
+}
+
+a {
     color: hotpink;
 }
 
