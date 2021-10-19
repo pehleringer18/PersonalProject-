@@ -13,6 +13,7 @@ html {
 	margin: 0;
 	padding: 0;
 	}
+
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
@@ -24,31 +25,37 @@ body {
 	margin: 0; 
 	padding: 0;
 	}
+
 p { 
 	margin-top: 0; 
 	text-align: justify;
 	background-color: black; opacity: .75;
 	}
+
 h3 { 
 	font: italic normal 1.4em georgia, sans-serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color:black;
 	}
+
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: magenta;
+	color: gold;
 	}
+
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
 	color: darkblue;
 	}
+
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: magenta;
+	color: gold;
 	}
+
 abbr {
 	border-bottom: none;
 	}
@@ -80,6 +87,7 @@ header h1 {
 	white-space: nowrap;
 	overflow: hidden;
 	}
+
 header h2 { 
 	background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left; 
 	margin-top: 58px; 
@@ -92,10 +100,11 @@ header h2 {
 	white-space: nowrap;
 	overflow: hidden;
 	}
+
 header {
 	padding-top: 20px;
 	height: 87px;
-}
+	}
 
 .summary {
 	clear: both; 
@@ -103,6 +112,7 @@ header {
 	width: 160px; 
 	float: left;
 	}
+
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
 	text-align: center;
@@ -112,6 +122,7 @@ header {
 	clear: right; 
 	padding: 0px 10px 0 10px;
 	}
+
 .supporting {	
 	padding-left: 10px; 
 	margin-bottom: 40px;
@@ -120,6 +131,7 @@ header {
 footer { 
 	text-align: center; 
 	}
+
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
 	}
@@ -130,6 +142,7 @@ footer a:link, footer a:visited {
 	top: 0; 
 	right: 0;
 	}
+
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
 	background: transparent url(http://csszengarden.com/001/paper-bg.jpg) top left repeat-y; 
@@ -137,6 +150,7 @@ footer a:link, footer a:visited {
 	margin-top: 150px; 
 	width: 130px; 
 	}
+
 .sidebar h3.select { 
 	background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; 
 	margin: 10px 0 5px 0; 
@@ -147,6 +161,7 @@ footer a:link, footer a:visited {
 	white-space: nowrap;
 	overflow: hidden;
 	}
+
 .sidebar h3.archives { 
 	background: transparent url(http://csszengarden.com/001/h5.gif) no-repeat top left; 
 	margin: 25px 0 5px 0; 
@@ -157,6 +172,7 @@ footer a:link, footer a:visited {
 	white-space: nowrap;
 	overflow: hidden;
 	}
+
 .sidebar h3.resources { 
 	background: transparent url(http://csszengarden.com/001/h6.gif) no-repeat top left; 
 	margin: 25px 0 5px 0; 
@@ -168,11 +184,11 @@ footer a:link, footer a:visited {
 	overflow: hidden;
 	}
 
-
 .sidebar ul {
 	margin: 0;
 	padding: 0;
 	}
+	
 .sidebar li {
 	line-height: 1.3em; 
 	background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center; 
@@ -181,13 +197,14 @@ footer a:link, footer a:visited {
 	margin-bottom: 5px;
 	list-style-type: none;
 	}
+
 .sidebar li a:link {
 	color: #988F5E;
 	}
+
 .sidebar li a:visited {
 	color: #B3AE94;
 	}
-
 
 .extra1 {
 	background: transparent url(crossedSwords.jpg) top left no-repeat; 
