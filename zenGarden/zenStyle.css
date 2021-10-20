@@ -29,7 +29,6 @@ body {
 p { 
 	margin-top: 0; 
 	text-align: justify;
-	background-color: gray; opacity: .5;
 	}
 
 h3 { 
@@ -116,6 +115,7 @@ header {
 .summary p {
 	font: italic 1.1em/2.2 georgia; 
 	text-align: center;
+    background-color: black; opacity: .5;
 	}
 
 .preamble {
@@ -123,10 +123,28 @@ header {
 	padding: 0px 10px 0 10px;
 	}
 
+.preamble p {
+    background-color: black; opacity: .5;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
 .supporting {	
 	padding-left: 10px; 
 	margin-bottom: 40px;
 	}
+
+.supporting p {
+    background-color: black; opacity: .5;
+    margin: 0 auto;
+}
+
+.explanation p {
+    background-color: black; opacity: .5;
+    width: 70%;
+    margin: 0 auto;
+}
 
 footer { 
 	text-align: center; 
