@@ -17,7 +17,7 @@ html {
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 1.88889;
-	color: white; 
+	color: silver; 
 	background-image: url("spartanHeltmet.png"); 
 	background-position: center;
 	background-repeat: no-repeat;
@@ -29,7 +29,7 @@ body {
 p { 
 	margin-top: 0; 
 	text-align: justify;
-	background-color: black; opacity: .75;
+	background-color: gray; opacity: .5;
 	}
 
 h3 { 
