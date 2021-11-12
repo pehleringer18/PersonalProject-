@@ -1,11 +1,11 @@
 #draggable { 
-    width: 100px; 
-    height: 100px; 
+    width: 250px; 
+    height: 250px; 
     padding: 0.5em; 
     margin: 10px 10px 10px 0; }
 #droppable { 
-    width: 100px; 
-    height: 100px; 
+    width: 250px; 
+    height: 250px; 
     padding: 0.5em; 
     margin: 10px; 
     border-style: solid; 
