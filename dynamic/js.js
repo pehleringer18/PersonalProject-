@@ -22,11 +22,15 @@ $(function() {
     
     $( "#droppable1" ).droppable({
       drop: function( event, ui ) {
+        var draggable = ui.draggable;
+        var id = draggable.attr("id");
         $( this )
-          .addClass( "ui-state-highlight" )
-          .find( "p" )
-          $('#counter').html(function(i, val) {
-            return val * 1 + 1;
+        .addClass( "ui-state-highlight" )
+        .find( "p" )
+        $('#counter').html(function(i, val) {
+            if (id == "draggable4") {
+                return val * 1 + 1;
+            }
           });
         }
       });
@@ -37,11 +41,15 @@ $(function() {
     
     $( "#droppable2" ).droppable({
       drop: function( event, ui ) {
+        var draggable = ui.draggable;
+        var id = draggable.attr("id");
         $( this )
-          .addClass( "ui-state-highlight" )
-          .find( "p" )
-          $('#counter').html(function(i, val) {
-            return val * 1 + 1;
+        .addClass( "ui-state-highlight" )
+        .find( "p" )
+        $('#counter').html(function(i, val) {
+            if (id == "draggable") {
+                return val * 1 + 1;
+            }
           });
         }
       });
@@ -52,11 +60,15 @@ $(function() {
     
     $( "#droppable3" ).droppable({
       drop: function( event, ui ) {
+        var draggable = ui.draggable;
+        var id = draggable.attr("id");
         $( this )
-          .addClass( "ui-state-highlight" )
-          .find( "p" )
-          $('#counter').html(function(i, val) {
-            return val * 1 + 1;
+        .addClass( "ui-state-highlight" )
+        .find( "p" )
+        $('#counter').html(function(i, val) {
+            if (id == "draggable3") {
+                return val * 1 + 1;
+            }
           });
         }
       });
@@ -67,11 +79,15 @@ $(function() {
     
     $( "#droppable4" ).droppable({
       drop: function( event, ui ) {
+        var draggable = ui.draggable;
+        var id = draggable.attr("id");
         $( this )
-          .addClass( "ui-state-highlight" )
-          .find( "p" )
-          $('#counter').html(function(i, val) {
-            return val * 1 + 1;
+        .addClass( "ui-state-highlight" )
+        .find( "p" )
+        $('#counter').html(function(i, val) {
+            if (id == "draggable2") {
+                return val * 1 + 1;
+            }
           });
         }
       });
