@@ -7,10 +7,7 @@ $(function() {
         .addClass( "ui-state-highlight" )
         .find( "p" )
         $('#counter').html(function(i, val) {
-            var id = $(this).attr('id');
-            if(id === 'draggable1'){
-            return val * 1 + 1;
-            }
+          return val * 1 + 1;
         });
       }
     });
@@ -25,10 +22,7 @@ $(function() {
           .addClass( "ui-state-highlight" )
           .find( "p" )
           $('#counter').html(function(i, val) {
-            var id = $(this).attr('id');
-            if(id === 'draggable3'){
             return val * 1 + 1;
-            }
           });
         }
       });
@@ -43,10 +37,7 @@ $(function() {
           .addClass( "ui-state-highlight" )
           .find( "p" )
           $('#counter').html(function(i, val) {
-            var id = $(this).attr('id');
-            if(id === 'draggable'){
             return val * 1 + 1;
-            }
           });
         }
       });
@@ -61,10 +52,7 @@ $(function() {
           .addClass( "ui-state-highlight" )
           .find( "p" )
           $('#counter').html(function(i, val) {
-            var id = $(this).attr('id');
-            if(id === 'draggable4'){
             return val * 1 + 1;
-            }
           });
         }
       });
@@ -79,10 +67,7 @@ $(function() {
           .addClass( "ui-state-highlight" )
           .find( "p" )
           $('#counter').html(function(i, val) {
-            var id = $(this).attr('id');
-            if(id === 'draggable2'){
             return val * 1 + 1;
-            }
           });
         }
       });
