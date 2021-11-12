@@ -1,4 +1,4 @@
-$(function() {
+
     $( "#draggable" ).draggable();
     
     $( "#droppable" ).droppable({
@@ -11,4 +11,3 @@ $(function() {
           });
         }
       });
-    });
