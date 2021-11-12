@@ -3,11 +3,15 @@ $(function() {
   
   $( "#droppable" ).droppable({
     drop: function( event, ui ) {
-      $( this )
+        var draggable = ui.draggable;
+        var id = draggable.attr("id");
+        $( this )
         .addClass( "ui-state-highlight" )
         .find( "p" )
         $('#counter').html(function(i, val) {
-          return val * 1 + 1;
+            if (id == "draggable1") {
+                return val * 1 + 1;
+            }
         });
       }
     });
