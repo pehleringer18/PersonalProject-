@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    background-color: maroon;
 }
 #draggable, #draggable1, #draggable2, #draggable3, #draggable4 { 
     width: 100px; 
