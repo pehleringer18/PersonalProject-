@@ -1,2 +1,15 @@
-#draggable { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
-#droppable { width: 300px; height: 300px; padding: 0.5em; float: right; margin: 10px; border-style: solid; text-align: center; }
+#draggable { 
+    width: 100px; 
+    height: 100px; 
+    padding: 0.5em; 
+    margin: 10px 10px 10px 0; }
+#droppable { 
+    width: 100px; 
+    height: 100px; 
+    padding: 0.5em; 
+    margin: 10px; 
+    border-style: solid; 
+    text-align: center; }
+td {
+    width: 50%;
+}
