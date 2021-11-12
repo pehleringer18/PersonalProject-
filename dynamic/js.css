@@ -2,6 +2,9 @@ h1 {
     text-align: center;
     background-color: maroon;
 }
+body {
+    background-color: gray;
+}
 #draggable, #draggable1, #draggable2, #draggable3, #draggable4 { 
     width: 100px; 
     height: 100px; 
@@ -10,7 +13,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 #droppable, #droppable1, #droppable2, #droppable3, #droppable4 { 
     width: 250px; 
@@ -28,7 +30,6 @@ table {
 td {
     width: 70%
 }
-
 p {
     text-align: center;
     color: maroon;
