@@ -16,7 +16,7 @@ request.onload = function () {
     card.setAttribute('class', 'card')
 
     const h1 = document.createElement('h1')
-    $("#setup").textContent = value
+    $("#setup").textContent = data.value
   } else {
     const errorMessage = document.createElement('marquee')
     errorMessage.textContent = `Gah, it's not working!`
