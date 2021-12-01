@@ -1,6 +1,6 @@
 url = 'https://api.chucknorris.io/jokes/random';
 
-document.getElementById('getJoke').onclick = async function() {
+document.getElementById('getJoke').onclick = function() {
   let response = await fetch(url);
   console.log(response.status);
 
