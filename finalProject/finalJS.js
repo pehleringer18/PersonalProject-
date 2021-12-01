@@ -1,13 +1,3 @@
-function getJoke()
-{
-  // get request to API
-  $.get("https://api.chucknorris.io/jokes/random", function(data)
-  {
-    .html(data.setup);
-    $("#punchline").html(data.value);
-  });
-}
-
 const app = document.getElementById('root')
 
 const logo = document.createElement('img')
