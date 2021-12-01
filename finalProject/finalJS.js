@@ -1,15 +1,10 @@
-var request = new XMLHttpRequest()
-request.open('GET', 'https://api.chucknorris.io/jokes/random', true)
-request.onload = function () {
-  // Begin accessing JSON data here
-  var data = JSON.parse(this.response)
-  if (request.status >= 200 && request.status < 400) {
-    $("#setup").textContent = data.value
-  } else {
-    const errorMessage = document.createElement('marquee')
-    errorMessage.textContent = `Gah, it's not working!`
-    app.appendChild(errorMessage)
-  }
-}
+url = 'https://api.chucknorris.io/jokes/random';
 
-request.send()
+document.getElementById('getJoke').onclick = async function() {
+  let response = await fetch(url);
+  console.log(response.status);
+
+  let json = await response.json();
+  console.log(json);
+  document.getElementById('punchline').innerHTML = json.value;
+}
