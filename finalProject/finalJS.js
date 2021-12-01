@@ -6,9 +6,6 @@ logo.src = 'logo.png'
 const container = document.createElement('div')
 container.setAttribute('class', 'container')
 
-app.appendChild(logo)
-app.appendChild(container)
-
 var request = new XMLHttpRequest()
 request.open('GET', 'https://api.chucknorris.io/jokes/random', true)
 request.onload = function () {
