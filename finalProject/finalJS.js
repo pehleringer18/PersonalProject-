@@ -39,5 +39,8 @@ document.getElementById('getJoke').onclick = function() {
 // This will clear the screen of all the jokes 
 document.getElementById('clearJoke').onclick = function() {
   //document.getElementById('root').innerHTML = "";
-  document.getElementById('container').innerHTML = "";
+  var div = document.container;
+  while(div.firstChild){
+    div.removeChild(div.firstChild);
+  }
 }
