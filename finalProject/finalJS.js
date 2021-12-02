@@ -2,6 +2,8 @@
 // https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
 const app = document.getElementById('root')
 
+// This creates a box that each joke is put in, 
+// a new box is created with each joke and button press
 document.getElementById('getJoke').onclick = function() {
   var request = new XMLHttpRequest()
   request.open('GET', 'https://api.chucknorris.io/jokes/random', true)
@@ -28,6 +30,7 @@ document.getElementById('getJoke').onclick = function() {
   request.send()
 }
 
+// This will clear the screen of all the jokes 
 document.getElementById('clearJoke').onclick = function() {
   document.getElementById('root').innerHTML = "";
 }
