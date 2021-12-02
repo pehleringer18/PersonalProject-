@@ -15,17 +15,16 @@ request.onload = function () {
   // Begin accessing JSON data here
   var data = JSON.parse(this.response)
   if (request.status >= 200 && request.status < 400) {
-    data.forEach(movie => {
-      const card = document.createElement('div')
-      card.setAttribute('class', 'card')
+    const card = document.createElement('div')
+    card.setAttribute('class', 'card')
 
-      const p = document.createElement('p')
-      movie.value = movie.value.substring(0, 300)
-      p.textContent = `${movie.value}...`
+    const p = document.createElement('p')
+    movie.value = movie.value.substring(0, 300)
+    p.textContent = `${movie.value}...`
 
-      container.appendChild(card)
-      card.appendChild(p)
-    })
+    container.appendChild(card)
+    card.appendChild(p)
+    )
   } else {
     const errorMessage = document.createElement('marquee')
     errorMessage.textContent = `Gah, it's not working!`
