@@ -1,12 +1,6 @@
 // Parts of the code were based off of the example on 
 // https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
 const app = document.getElementById('root')
-
-const container = document.createElement('div')
-container.setAttribute('class', 'container')
-
-app.appendChild(container)
-
 document.getElementById('getJoke').onclick = function() {
   var request = new XMLHttpRequest()
   request.open('GET', 'https://api.chucknorris.io/jokes/random', true)
