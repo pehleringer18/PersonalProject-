@@ -28,6 +28,6 @@ document.getElementById('getJoke').onclick = function() {
   request.send()
 }
 
-document.getElementById('getJoke').onclick = function() {
+document.getElementById('clearJoke').onclick = function() {
   document.getElementById('root').innerHTML = "";
 }
