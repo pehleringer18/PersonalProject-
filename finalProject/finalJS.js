@@ -24,7 +24,6 @@ request.onload = function () {
 
     container.appendChild(card)
     card.appendChild(p)
-    )
   } else {
     const errorMessage = document.createElement('marquee')
     errorMessage.textContent = `Gah, it's not working!`
