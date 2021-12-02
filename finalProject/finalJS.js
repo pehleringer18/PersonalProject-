@@ -2,13 +2,9 @@
 // https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
 const app = document.getElementById('root')
 
-const logo = document.createElement('img')
-logo.src = 'laughingFace.jpg'
-
 const container = document.createElement('div')
 container.setAttribute('class', 'container')
 
-app.appendChild(logo)
 app.appendChild(container)
 
 document.getElementById('getJoke').onclick = function() {
