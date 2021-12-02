@@ -10,11 +10,6 @@ app.appendChild(container)
 // This will create a box that each joke will go in, 
 // a new box is created for each joke
 document.getElementById('getJoke').onclick = function() {
-  const container = document.createElement('div')
-  container.setAttribute('class', 'container')
-
-  app.appendChild(container)
-  
   var request = new XMLHttpRequest()
   var url = 'https://api.chucknorris.io/jokes/random?category=' + document.getElementById('category').value
   request.open('GET', url, true)
@@ -44,7 +39,7 @@ document.getElementById('getJoke').onclick = function() {
 // This will clear the screen of all the jokes 
 document.getElementById('clearJoke').onclick = function() {
   //document.getElementById('root').innerHTML = "";
-  var div = document.getElementById('root');
+  var div = document.getElementById('container');
   while(div.firstChild){
     div.removeChild(div.firstChild);
 }
