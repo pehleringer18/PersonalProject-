@@ -2,6 +2,11 @@
 // https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
 const app = document.getElementById('root')
 
+const container = document.createElement('div')
+container.setAttribute('class', 'container')
+
+app.appendChild(container)
+
 // This will create a box that each joke will go in, 
 // a new box is created for each joke
 document.getElementById('getJoke').onclick = function() {
