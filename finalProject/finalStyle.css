@@ -1,45 +1,26 @@
-body
-{
-    background-image: url("http://www.script-tutorials.com/demos/360/images/clouds3.png");
-    background-color: darkgray;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	margin: 0; 
-    padding: 0;
-}
-
-h1
-{
-    text-align: center;
-}
-
-h5
-{
-    text-align: center;
-}
-
-#setup
-{
-    color: lightblue;
-    font-size: medium;
-    text-align: center;
-}
-
-#punchline
-{
-    color: orange;
-    font-size: 300%;
-    text-align: center;
-}
-
-button
-{
+#root {
+    max-width: 1200px;
     margin: 0 auto;
-    display: block;
-}
-
-#laughing
-{
-    
-}
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin: 1rem;
+    border: 1px solid gray;
+  }
+  
+  @media screen and (min-width: 600px) {
+    .card {
+      flex: 1 1 calc(50% - 2rem);
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    .card {
+      flex: 1 1 calc(33% - 2rem);
+    }
+  }
