@@ -16,7 +16,8 @@ document.getElementById('getJoke').onclick = function() {
   app.appendChild(container)
   
   var request = new XMLHttpRequest()
-  request.open('GET', 'https://api.chucknorris.io/jokes/random', true)
+  var url = 'https://api.chucknorris.io/jokes/random?category=' + document.getElementById('category').value
+  request.open('GET', url, true)
   request.onload = function () {
     // Begin accessing JSON data here
     var data = JSON.parse(this.response)
