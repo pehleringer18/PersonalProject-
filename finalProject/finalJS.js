@@ -2,8 +2,13 @@
 // https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
 const app = document.getElementById('root')
 
-// This creates a box that each joke is put in, 
-// a new box is created with each joke and button press
+const container = document.createElement('div')
+container.setAttribute('class', 'container')
+
+app.appendChild(container)
+
+// This will create a box that each joke will go in, 
+// a new box is created for each joke
 document.getElementById('getJoke').onclick = function() {
   var request = new XMLHttpRequest()
   request.open('GET', 'https://api.chucknorris.io/jokes/random', true)
@@ -22,7 +27,7 @@ document.getElementById('getJoke').onclick = function() {
       card.appendChild(p)
     } else {
       const errorMessage = document.createElement('marquee')
-      errorMessage.textContent = "Gah, it's not working!"
+      errorMessage.textContent = `Gah, it's not working!`
       app.appendChild(errorMessage)
     }
   }
