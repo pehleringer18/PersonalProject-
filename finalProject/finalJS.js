@@ -20,7 +20,7 @@ document.getElementById('getJoke').onclick = function() {
       card.appendChild(p)
     } else {
       const errorMessage = document.createElement('marquee')
-      errorMessage.textContent = `Gah, it's not working!`
+      errorMessage.textContent = "Gah, it's not working!"
       app.appendChild(errorMessage)
     }
   }
@@ -29,5 +29,5 @@ document.getElementById('getJoke').onclick = function() {
 }
 
 document.getElementById('getJoke').onclick = function() {
-  app.appendChild("")
+  document.getElementById('root').innerHTML = "";
 }
