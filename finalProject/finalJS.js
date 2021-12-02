@@ -1,10 +1,32 @@
-url = 'https://api.chucknorris.io/jokes/random';
+const app = document.getElementById('root')
 
-document.getElementById('getJoke').onclick = function() {
-  let response = await url;
-  console.log(response.status);
+const container = document.createElement('div')
+container.setAttribute('class', 'container')
 
-  let json = await response.json();
-  console.log(json);
-  document.getElementById('punchline').innerHTML = json.value;
+app.appendChild(container)
+
+var request = new XMLHttpRequest()
+request.open('GET', 'https://ghibliapi.herokuapp.com/films', true)
+request.onload = function () {
+  // Begin accessing JSON data here
+  var data = JSON.parse(this.response)
+  if (request.status >= 200 && request.status < 400) {
+    data.forEach(movie => {
+      const card = document.createElement('div')
+      card.setAttribute('class', 'card')
+
+      const p = document.createElement('p')
+      movie.description = movie.description.substring(0, 300)
+      p.textContent = `${movie.description}...`
+
+      container.appendChild(card)
+      card.appendChild(p)
+    })
+  } else {
+    const errorMessage = document.createElement('marquee')
+    errorMessage.textContent = `Gah, it's not working!`
+    app.appendChild(errorMessage)
+  }
 }
+
+request.send()
