@@ -19,8 +19,8 @@ request.onload = function () {
     card.setAttribute('class', 'card')
 
     const p = document.createElement('p')
-    movie.value = movie.value.substring(0, 300)
-    p.textContent = `${movie.value}...`
+    data.value = data.value.substring(0, 300)
+    p.textContent = `${data.value}...`
 
     container.appendChild(card)
     card.appendChild(p)
