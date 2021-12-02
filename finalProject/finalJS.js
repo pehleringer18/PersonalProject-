@@ -11,7 +11,7 @@ container.setAttribute('class', 'container')
 app.appendChild(logo)
 app.appendChild(container)
 
-document.getElementById('enterButton').onclick = function() {
+document.getElementById('getJoke').onclick = function() {
   var request = new XMLHttpRequest()
   request.open('GET', 'https://api.chucknorris.io/jokes/random', true)
   request.onload = function () {
