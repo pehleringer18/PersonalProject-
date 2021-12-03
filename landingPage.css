@@ -1,11 +1,11 @@
 h1, h2, p {
-    background-color: rgba(128, 128, 128, .35);
+    background-color: black;
     display: inline;
     font-size: 200;
 }
 
 a {
-    color: hotpink;
+    color: gold;
 }
 
 p {
