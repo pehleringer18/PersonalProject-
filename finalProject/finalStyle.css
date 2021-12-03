@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(gray, white);
+    background: linear-gradient(0.25turn, grey, white);
+    font-family: a_agressive_winterregular;
 }
 
 #root {
@@ -10,12 +11,11 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .card {
     margin: 1rem;
-    border: 1px solid gray;
+    border: 2px solid orange;
 }
 
 @media screen and (min-width: 600px) {
