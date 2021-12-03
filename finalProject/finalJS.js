@@ -40,7 +40,7 @@ document.getElementById('getJoke').onclick = function() {
 // This will clear the screen of all the jokes 
 document.getElementById('clearJoke').onclick = function() {
   var div = document.getElementById('root');
-  while(div.firstChild){
-    div.removeChild(div.firstChild);
+  while(div.firstChild.firstChild){
+    div.removeChild(div.firstChild.firstChild);
   }
 }
