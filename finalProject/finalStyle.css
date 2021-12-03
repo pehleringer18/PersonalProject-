@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    background: linear-gradient(to bottom, gray 75%, white 25%)
+    background: linear-gradient(to bottom, gray 25%, white 75%)
 }
 
 #root {
