@@ -1,3 +1,8 @@
+/*
+  pehleringer18@georgefox.edu
+  Final Project
+  2021-12-02
+*/
 // Parts of the code were based off of the example on 
 // https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
 const app = document.getElementById('root')
