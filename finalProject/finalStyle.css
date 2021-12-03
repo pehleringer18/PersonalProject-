@@ -4,9 +4,11 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+
 h1 {
     vertical-align: middle;
 }
+
 #root {
     max-width: 1200px;
     margin: 0 auto;
